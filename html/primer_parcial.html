@@ -5,53 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body {
-    background-color: black;
-    place-items: center;
-    align-items: center;
-    
-}
-div#fahter{
-    background-color: gray;
-    width: auto;
-    height: auto;
-    place-items: center;
-    align-items: center;
-    min-height: 100vh;
-}
-div#boxes{
-    display: flex;
-    justify-content: space-around;
-    place-items: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: gray;
-}
-div#box_one{
-    background-color: white;
-}
-.name_and_numbers{
-    color: black;
-}
-.info{
-    color: gray;
-}
-.profile_photo{
-border-radius: 50%;
-}
-div#followers{
-    display: flex;
-    gap: 25px;
-    text-align: center;
-}
-div#numbers{
-    display: flex;
-    gap: 70px;
-    text-align: center;
-}
-
-    </style>
+    <link rel="stylesheet" href="../css/style_primer_parcial.css"/>
     </head>
     
     <body>
@@ -59,6 +13,7 @@ div#numbers{
             <div id="boxes">
                 <div id="box_one">
                     <div id="content_top">
+                        <div id="points" class="info"></div>
                         <img class="profile_photo" height="200px" width="200px"
                             src="https://images.pexels.com/photos/771742/pexels-photo-771742.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                             alt="profile_1">
@@ -76,7 +31,41 @@ div#numbers{
                             <h2>159</h2><br>
                             <h2>205</h2>
                         </div>
-                        <h3>lrem ipsum dolor sit amet, cnsectetur adip<br>
+                        <h3 class="info">lrem ipsum dolor sit amet, cnsectetur adip<br>
+                        iscing elit. Sed et est et velit ornace ultrices. ut vitae<br>
+                    diam volutpatrisus eget.</h3>
+                    <div id="icons">
+                        <img class="profile_photo" width="30px" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="TWITTER_ICON">
+                        <img class="profile_photo" width="30px" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="FACEBOOK_ICON">
+                        <img class="profile_photo" width="30px" height="30px" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Google_Plus_logo_%282015-2019%29.svg" alt="GOOGLE+_ICON">
+                        <img class="profile_photo" width="30px" height="30px" src="https://seeklogo.com/images/B/behance-logo-1373E40919-seeklogo.com.png" alt="BEHANCE_ICON">
+                    </div>
+                    <div id="view_profile_box">
+                        <h1 class="info">View Profile</h1>
+                    </div>
+                    </div>
+                </div>
+                <div id="box_two">
+                    <div id="content_top">
+                        <div id="points" class="info"></div>
+                        <img class="profile_photo" height="200px" width="200px"
+                            src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                            alt="profile_2">
+                        <h1 class="name_and_numbers">Vel Kumar P</h1><br>
+                        <h2 class="info">UI/UX Mobile Designer</h2><br>
+                    </div>
+                    <div id="content_mid">
+                        <div id="followers" class="info">
+                            <h2>Proyects</h2><br>
+                            <h2>Following</h2><br>
+                            <h2>Followers</h2>
+                        </div>
+                        <div id="numbers" class="name_and_numbers">
+                            <h2>11</h2><br>
+                            <h2>250</h2><br>
+                            <h2>185</h2>
+                        </div>
+                        <h3 class="info">lrem ipsum dolor sit amet, cnsectetur adip<br>
                         iscing elit. Sed et est et velit ornace ultrices. ut vitae<br>
                     diam volutpatrisus eget.</h3>
                     <div id="icons">
