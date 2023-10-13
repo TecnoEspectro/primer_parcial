@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+div#box_top {
+    background-color: rgb(32, 32, 32);
+    color: red;
+    width: auto;
+    height: auto;
+    align-items: top;
+    margin: 0;
+    border-radius: 0;
+    text-align: left;
+    display: flex;
+}
+
+#LOGO {
+    transform: rotate(-45deg);
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+div#box_center {
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    align-items: top;
+    border-radius: 0;
+    text-align: center;
+    justify-content: space-between;
+}
+div#move_bars{
+    background-color: black;
+    height: 250px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bars:hover{
+    padding: 5px;
+    background-color: azure;
+}
+div#move_bars2{
+    width: 0px;
+    height: 0px;
+    border-left: 30px solid azure;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    justify-content: center;
+    align-items: center;
+}
+.move_bars_rotate{
+    rotate: 180deg;
+}
+
+div#game_images {
+    display: flex;
+    justify-content: space-around;
+}
+
+.games:hover {
+    padding: 5px;
+    background-color: azure;
+}
+.games {
+    box-shadow: 5px 5px 10px black;
+}
+.game_name{
+    text-align: center;
+}
+
+div#box_bottom {
+    background-color: rgb(32, 32, 32);
+    color: aliceblue;
+    width: auto;
+    height: auto;
+    align-items: bottom;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+div#box_bottom2 {
+    text-align: right;
+    display: flex;
+}
+
+#LOGO2 {
+    transform: rotate(-45deg);
+    margin-right: 10px;
+    margin-left: 10px;
+}
