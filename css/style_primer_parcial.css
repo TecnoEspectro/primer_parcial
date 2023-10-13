@@ -1,0 +1,56 @@
+body {
+    background-color: black;
+    place-items: center;
+    align-items: center;
+    
+}
+div#fahter{
+    background-color: gray;
+    width: auto;
+    height: auto;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+}
+div#boxes{
+    display: flex;
+    justify-content: space-evenly;
+    place-items: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: gray;
+}
+div#box_one{
+    background-color: white;
+}
+div#box_two{
+    background-color: white;
+}
+.name_and_numbers{
+    color: black;
+}
+.info{
+    color: gray;
+}
+.profile_photo{
+border-radius: 50%;
+}
+div#followers{
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+div#numbers{
+    display: flex;
+    gap: 70px;
+    text-align: center;
+}
+div#viev_profile_box{
+    border-color: gray;
+    height: 50px;
+    width: 100px;
+}
+div#viev_profile_box:hover{
+    border-color: cyan;
+    padding: 5px;
+}
